@@ -6,4 +6,13 @@
   "python.formatting.provider": "black",
   "editor.formatOnSave": true,
   "python.linting.enabled": true,
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    ".",
+    "-p",
+    "*test.py"
+  ],
 }
